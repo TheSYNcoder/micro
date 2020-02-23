@@ -1,2 +1,6 @@
 node_modules
 build
+.vscode
+src/get.py
+src/logo.svg
+src/new_data.json
