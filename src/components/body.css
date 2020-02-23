@@ -1,0 +1,118 @@
+
+@media screen and ( min-width : 961px){
+.container{
+    
+    margin-left :10em;
+    margin-right:10em;
+    
+    margin-top : 3em;
+    height: 4em;
+
+}
+
+.container input{
+    width : 100%;
+    height: 100%;
+    font-size: 3em;
+    opacity : 0.6;
+    border-radius : 15px;
+}
+
+.container input :focus{
+    opacity : 1;
+    color :black;
+
+}
+
+.bts{
+    border: 2px solid #ded1d4;
+    font-family : Raleway , sans-serif;
+    font-size : 0.8em;
+    width  : auto ;
+    height : 5em;
+    background-color : #ed9ab0;
+    color : black;
+    border-radius:20px; 
+    margin : 1.9em auto;
+    
+}
+
+.bts:hover{
+    box-shadow: 1px 1px 6px #b3abad;
+}
+
+.all{
+    border :1px solid black;
+    width : 100%;
+}
+
+.all th{
+    border :1px solid #ebccd4;
+    padding :1em;
+    
+}
+
+}
+
+@media screen and ( max-width : 961px){
+   
+    .all{
+    border :1px solid black;
+    margin : 1em 1em 1em;
+}
+
+.all th{
+    border :1px solid #ebccd4;
+    padding :0.3em;
+    
+}
+
+.container{
+    
+    margin : 3em 3em;
+    height: 4em;
+
+}
+
+.container input{
+    width : 100%;
+    height: 100%;
+    font-size: 3em;
+    opacity : 0.6;
+    border-radius : 15px;
+}
+
+.bts{
+    border: 2px solid #ded1d4;
+    font-family : Raleway , sans-serif;
+    font-size : 0.8em;
+    width  : auto ;
+    height : 5em;
+    background-color : #ed9ab0;
+    color : black;
+    border-radius:20px; 
+    margin : 3em;
+    margin-left: 6em;
+    
+}
+
+.bts:hover{
+    box-shadow: 1px 1px 6px #b3abad;
+}
+
+}
+
+@media screen and ( max-width : 431px){
+
+    .all{
+    border :1px solid black;
+    margin : 0.8em 0.8em ;
+}
+
+.all th{
+    border :1px solid #ebccd4;
+    padding :0.3em;
+    
+}
+    
+}
